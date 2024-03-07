@@ -15,6 +15,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            height: 100%;
+            width: 100%;
         }
         .container {
             display: flex;
@@ -48,7 +50,7 @@
         }
         h2{
             text-align: center;
-            margin: 35px 0;
+            margin: 35px 10px;
             font-size: 25px;
             
         }
@@ -88,6 +90,11 @@
         #foto{
             width: 90%;
         }
+        @media only screen and (max-width: 600px) {
+        .img img {
+        max-width: 100%; /* Ajuste a largura máxima conforme necessário */
+        height: auto; /* Mantém a proporção da imagem */
+        
 
     </style>
     <body>
